@@ -14,7 +14,6 @@ public class HelloWorld {
             String filename = getRandomString(6);
             sleep(1000);
             System.out.println(j+"\n"+A+filename);
-            System.out.println(j+'\n'+A+filename);
         }
 
     }
@@ -25,8 +24,6 @@ public class HelloWorld {
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < length; i++) {
             int number = random.nextInt(10);
-//            System.out.println(number);
-//            System.out.println(str.charAt(number));
             sb.append(str.charAt(number));
         }
         return sb.toString();
