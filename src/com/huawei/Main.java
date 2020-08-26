@@ -1,4 +1,4 @@
-package com.company;
+package com.huawei;
 
 public class Main {
 
