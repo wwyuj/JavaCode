@@ -10,7 +10,7 @@ public class HelloWorld {
     public static void main(String[] args) throws InterruptedException {
 
         String A = "hello world!";
-        for (int j = 0; j <21 ; j++) {
+        for (int j = 0; j < 22; j++) {
             String filename = getRandomString(6);
             sleep(1000);
             System.out.println(j+"\n"+A+filename);
