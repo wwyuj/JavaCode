@@ -11,7 +11,7 @@ public class HelloWorld {
 
         String A = "hello world!";
         for (int j = 0; j <20 ; j++) {
-            String filename = getRandomString(5);
+            String filename = getRandomString(6);
             sleep(1000);
             System.out.println(j+"\n"+A+filename);
             System.out.println(j+'\n'+A+filename);
